@@ -32,7 +32,7 @@ I built recommendation system in this project for this solution.
 
 In this project, I worked on sentiment analysis of Kindle Store reviews in Amazon. I choose this dataset because it is more easy to buy and read a book with Kindle. Going to the book store, finding a book which you like need more time than reaching every book from your tablet. 
 
-The data is obtained from github.io page of [UC San Diego Computer Science and Engineering Department academic staff](https://nijianmo.github.io/amazon/index.html#subsets). Dataset contains product reviews and metadata, including 142.8 million reviews from May 1996 to July 2014. I prefer to use 5-core sample dataset(such that each of the remaining users and items have at least 5 reviews) and metadata for Kindle Store. The reasons to choose 5-core data is that continuous users contains more information than single reviewers. To reach and download metadata, people have to fill the form and submit it. My filtered Kindle Store data consists of 2,222,983 rows and 12 columns. Also, I used the metadata to find the corresponding titles of the books from product ID.
+The data is obtained from github.io page of [UC San Diego Computer Science and Engineering Department academic staff](https://nijianmo.github.io/amazon/index.html#subsets). Dataset contains product reviews and metadata, including 142.8 million reviews from May 1996 to July 2014. I prefer to use 5-core sample dataset(such that each of the remaining users and items have at least 5 reviews) and metadata for Kindle Store. The reasons to choose 5-core data is that continuous users contains more information than single reviewers. To reach and download metadata, people have to fill the form and submit it. My filtered Kindle Store data consists of 2,222,983 rows and 12 columns. Also, I used the metadata to find the corresponding titles of the books from product ID. The format of raw data is json. 
 
 **Plan:**
 
@@ -45,6 +45,8 @@ The data is obtained from github.io page of [UC San Diego Computer Science and E
 - ***Evaluation and Results:*** To compare my results, I used balanced accuracy for machine learning models and loss values for deep learning models. I also calculated accuracy values for neural nets to represent my results in smart way. Although the maximum accuracy between machine learning models is 87% for test set with LogReg, it is 95% between deep learning model with pre-trained BertForSequence Classifier from BERT. It means that my model can predict the sentiment of review as positive or negative with 95% accuracy. 
 
 - ***Recommendation Systems:*** There different system were established. One is collaborative filtering with matrix factorization(SVDS) , second one is cosine-similarity of user-user based. As last one, I tried to solve cold-start problem with taking a few information from new user such as keywords. As a different approach, without looking summaries or genres of books, recommendations were done by the cosine-similarity of keywords and reviews. To this last system, rating effect, rating number effect and positive rating effect were added orderly and scores were compared.
+
+Resources were added to corresponding notebooks. If I was inspired by some external resources such as models, ideas etc, I inserted them corresponding notebooks.
 
 **Findings:**
 
@@ -73,10 +75,41 @@ Each model has different improvements and they can be found in notebooks. Here, 
 
  # Repository Guide
  
-  **CSV Files:**
-  
-  **Notebooks:**
-  
-  **Presentation:**
-  
-  # Resources 
+ **CSV Files:**
+ 
+ The sample data was downloaded to this repo; https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/sample_data.csv
+ 
+ **Notebooks:**
+ 
+There are total 9 notebooks in this repo. All of them was collected in notebooks file. For details;
+
+Getting data from json file: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/1_Getting_Data_from_json_Files%20.ipynb
+ 
+More information about importance of sentiment analysis, every steps for data understanding, cleaning, EDA ; https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/2_Understanding_EDA_Preparation.ipynb
+
+Machine learning models with metric: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/3_Machine_Learning_Models.ipynb
+
+Torch models with setting different parameters: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/4_Torch_Models.ipynb
+
+Keras models for 3-convolutional CNN and 2-GRU layers RNN: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/5_Keras_CNN_with_3_Conv_Layers_and_RNN_with_2_GRU_Layers.ipynb
+
+Keras models with different layer numbers and types and comparison of results for all Keras models:
+https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/6_Keras_with_Different_Layer_Types_and_Numbers.ipynb
+
+Pre-trained Bert Model: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/7_Pre_trained_BERT_model.ipynb
+
+Recommendation systems for collaborative filtering with matrix factorization and cosine similarity: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/8_Recommendation_Systems.ipynb
+
+Recommendations systems from cosine similarity of keywords with reviews: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/9_Recommendation_from_Keywords.ipynb
+ 
+ **Presentation:**
+ 
+ Presentation can be found from here in .pdf format ;
+ 
+ **For Reproduction:***
+ 
+ - Clone this repo (for help see this [tutorial](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository))
+ - Sample data is available in this repo, notebooks can be run with this sample data.
+ 
+ 
+
