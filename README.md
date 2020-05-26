@@ -115,4 +115,4 @@ Recommendations systems from cosine similarity of keywords with reviews: https:/
  - Clone this repo (for help see this [tutorial](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)).
  - Sample data is available in this repo, notebooks can be run with this sample data.
  
- ***Contact:*** [Ezgi Gumusbas](https://www.linkedin.com/in/ezgi-gumusbas-6b08a51a0/)
+ **Contact:** [Ezgi Gumusbas](https://www.linkedin.com/in/ezgi-gumusbas-6b08a51a0/)
