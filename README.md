@@ -17,12 +17,12 @@ For this solution, I worked on sentiment analysis with different models. The mod
 
 - recommend customers related products to increase satisfaction with decreasing search time for suitable product
 
-  I build recommendation system in this project for this solution.
+I built recommendation system in this project for this solution.
   
 **What Will These Solutions Bring to The Company?**
 
 - easy product comparison
-- defining like/dislikes easily 
+- defining dislikes easily 
 - saving time
 - more money with selling more products 
 - happier customers = more customers = more money
@@ -48,9 +48,28 @@ The data is obtained from github.io page of [UC San Diego Computer Science and E
 
 **Findings:**
 
-- 
+- My target is highly imbalanced but neural nets are very good at solving this issue. 
+- Most of the data points are belongs to recent years especially after 2014.
+- Data contains balanced points from each date and month. Also, distribution of target classes are similar in each time period. 4 and 5 rated books are on majority for all periods. 
+- High review average does not mean the book is better than others. It is more accurate way to look review numbers. It is hard to say that book with 5 average rating with 8 reviews is better than the book with 4.3 average rating with 2000 reviews. 
+- Although some top common words are similar in negative and positive reviews, some of the, totally different.
+- Tranfer learning is easier than build a model and train it from zero level.
+- Deep-learning models can handle overfitting problem better than machine learning models. 
+- Results change when the layer types and layer numbers change.
+- Bi-gram , tri-gram feature engineering effect results.
+- When the type of recommendation system changes, recommendations also change. 
+- When more data is added to the recommendation system, score increases. 
+
+More findings for data can be found [here](https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/2_Understanding_EDA_Preparation.ipynb), and different findings for each model can be found in corresponding notebooks.
 
 **Future Improvements:**
+
+Each model has different improvements and they can be found in notebooks. Here, I will state about BERT model (determined as giving best results) and recommendation system improvements here. 
+
+- Batch and epoch numbers can be tuned better way for modeling.
+- Learning rate and epsilon values can be changed for modeling.
+- More data can be added to recommendation systems.
+- Positive review numbers ratio to negative review numbers effect can be added to recommendation function.
 
  # Repository Guide
  
