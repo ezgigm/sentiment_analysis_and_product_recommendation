@@ -104,12 +104,15 @@ Recommendations systems from cosine similarity of keywords with reviews: https:/
  
  **Presentation:**
  
- Presentation can be found from here in .pdf format ;
+ Presentation can be found here in .pdf format ;
  
- **For Reproduction:***
+ **Video:**
  
- - Clone this repo (for help see this [tutorial](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository))
+ The video of presentation is [here]().
+ 
+ **Reproduction:**
+ 
+ - Clone this repo (for help see this [tutorial](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)).
  - Sample data is available in this repo, notebooks can be run with this sample data.
  
- 
-
+ ***Contact:*** [Ezgi Gumusbas](https://www.linkedin.com/in/ezgi-gumusbas-6b08a51a0/)
