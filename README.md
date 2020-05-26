@@ -19,7 +19,7 @@ For this solution, I worked on sentiment analysis with different models. The mod
 
   I build recommendation system in this project for this solution.
   
-**What Will These Solutions Bring to The Company?:**
+**What Will These Solutions Bring to The Company?**
 
 - easy product comparison
 - defining like/dislikes easily 
@@ -36,10 +36,19 @@ The data is obtained from github.io page of [UC San Diego Computer Science and E
 
 **Plan:**
 
-- Understanding, Cleaning and Exploring Data: To analyze distributions of data points, I observed each column seperately and compared common words in positive, negative and neutral reviews. The first challange of this data is to clean text from unnecessary items for modeling such as punctuation, upper-case letters etc. Detailed data analysis can be found [here](https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/2_Understanding_EDA_Preparation.ipynb)
+- ***Understanding, Cleaning and Exploring Data:*** To analyze distributions of data points, I observed each column seperately and compared common words in positive, negative and neutral reviews. The first challange of this data is to clean text from unnecessary items for modeling such as punctuation, upper-case letters etc. Detailed data analysis can be found [here](https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/2_Understanding_EDA_Preparation.ipynb).
+
+- ***Preparing Data to Modeling:*** Target was changed to binary class. Machine learning models and neural net models have different preparing strategies. Mainly, vectorization/tokenization, spliting train-test sets and padding were done. Detailed pre-processing techniques and steps can be found in corresponding notebooks. 
+
+- ***Modeling:*** Firstly, LogReg, DecisionTree, Extra-Trees, RandomForest, XGBoost and LGBM Classifiers were tried. Then, FastText class of Torch models were tried with different parameters. Keras models as CNN with 3 convolutional layers, RNN with 2 GRU layer, RNN with 2 LSTM layers, RNN with 2 CuRNNGRU layers and CNN with 2 convolutional layers were built. At last, pre-trained BERT model was tried. 
+
+- ***Evaluation and Results:*** To compare my results, I used balanced accuracy for machine learning models and loss values for deep learning models. I also calculated accuracy values for neural nets to represent my results in smart way. Although the maximum accuracy between machine learning models is 87% for test set with LogReg, it is 95% between deep learning model with pre-trained BertForSequence Classifier from BERT. It means that my model can predict the sentiment of review as positive or negative with 95% accuracy. 
+
+- ***Recommendation Systems:*** There different system were established. One is collaborative filtering with matrix factorization(SVDS) , second one is cosine-similarity of user-user based. As last one, I tried to solve cold-start problem with taking a few information from new user such as keywords. As a different approach, without looking summaries or genres of books, recommendations were done by the cosine-similarity of keywords and reviews. To this last system, rating effect, rating number effect and positive rating effect were added orderly and scores were compared.
+
+**Findings:**
 
 - 
-**Findings:**
 
 **Future Improvements:**
 
