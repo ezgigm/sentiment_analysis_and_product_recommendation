@@ -104,7 +104,7 @@ Recommendations systems from cosine similarity of keywords with reviews: https:/
  
  **Presentation:**
  
- Presentation can be found here ; https://www.canva.com/design/DAD9Vin-Fy8/P8Lv2zDV8L-kHfha6MYoQg/view?utm_content=DAD9Vin-Fy8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+ Presentation can be found here ; https://www.canva.com/design/DAD9aifDkig/xAFrvbfZz7kLfovBRXdgag/view?utm_content=DAD9aifDkig&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
  
  **Video:**
  
