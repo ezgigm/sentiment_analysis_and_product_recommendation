@@ -108,7 +108,7 @@ Recommendations systems from cosine similarity of keywords with reviews: https:/
  
  **Video:**
  
- The video of presentation is [here]().
+ The video of presentation is [here](https://youtu.be/q_USHnbOE24).
  
  **Reproduction:**
  
