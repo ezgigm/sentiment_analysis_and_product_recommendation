@@ -85,7 +85,7 @@ There are total 9 notebooks in this repo. All of them was collected in notebooks
 
 Getting data from json file: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/1_Getting_Data_from_json_Files%20.ipynb
  
-More information about importance of sentiment analysis, every steps for data understanding, cleaning, EDA ; https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/2_Understanding_EDA_Preparation.ipynb
+More information about importance of sentiment analysis, every steps for data understanding, cleaning, EDA; https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/2_Understanding_EDA_Preparation.ipynb
 
 Machine learning models with metric: https://github.com/ezgigm/sentiment_analysis_and_product_recommendation/blob/master/notebooks/3_Machine_Learning_Models.ipynb
 
