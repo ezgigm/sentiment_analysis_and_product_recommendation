@@ -26,7 +26,7 @@ I built recommendation system in this project for this solution.
 - saving time
 - more money with selling more products 
 - happier customers = more customers = more money
-- less time on server = less problem
+- less time on server = less proble
 
 **Data:**
 
