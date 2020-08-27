@@ -7,7 +7,7 @@ Day by day, demand in e-commerce is increasing. With the increasing demand in on
 
 **Aim:** 
 
-Protect company from losing money with increasing customer satisfaction and giving importance to their feedback.
+Protect ompany from losing money with increasing customer satisfaction and giving importance to their feedback.
 
 **Solution:**
 
