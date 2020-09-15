@@ -1,4 +1,4 @@
-# Sentiment Analysis and Product Recommendation from Review
+# Sentiment Analysis and Product Recommendation from Reviews
 From Kindle Store Reviews on Amazon, sentiment analysis and book recommendation
 
 **Problem:**
